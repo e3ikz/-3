@@ -16,8 +16,8 @@ import signal
 import sys
 
 # Конфигурация
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", "0")) if os.getenv("ADMIN_USER_ID") else None
+BOT_TOKEN = os.getenv("7063629673:AAH14qV3jFQ6LDtOLBwZs0-wyniZJ59lhxU", "")
+ADMIN_USER_ID = int(os.getenv("5028276712", "0")) if os.getenv("ADMIN_USER_ID") else None
 WEBHOOK_URL = os.getenv("WEBHOOK_URL", "")  # URL для webhook
 KEEP_ALIVE_URL = os.getenv("KEEP_ALIVE_URL", "")  # URL для keep-alive
 
